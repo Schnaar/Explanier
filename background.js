@@ -95,7 +95,7 @@ chrome.contextMenus.create({
         const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
           method: 'POST',
           headers: {
-            'Authorization': 'Bearer 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',
+            'Authorization': 'your key here',
             'Content-Type': 'application/json',
           },
           body: JSON.stringify({
