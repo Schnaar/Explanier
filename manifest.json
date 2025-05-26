@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Text Explainer",
+    "version": "1.0",
+    "permissions": [
+    "contextMenus",
+    "scripting",
+    "activeTab",
+    "storage"
+],
+"host_permissions": [
+    "https://openrouter.ai/*"
+],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "web_accessible_resources": [{
+  "resources": ["explain_icon.png"],
+  "matches": ["<all_urls>"]
+}]
+  }
